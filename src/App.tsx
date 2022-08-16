@@ -1,15 +1,12 @@
-import { useEffect } from "react";
-import { fetchTripsData } from "./utils/mockApi";
+import { Provider } from "react-redux";
+import { store } from "./configureStore";
+import { Router } from "./routes";
 
 const App = () => {
-  useEffect(() => {
-    fetchTripsData().then((data) => console.log(data));
-  }, []);
-
   return (
-    <div>
-      <h1>Freely react app template</h1>
-    </div>
+    <Provider store={store}>
+      <Router />
+    </Provider>
   );
 };
 
