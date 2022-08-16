@@ -1,0 +1,14 @@
+@import "./colors.scss";
+$font-path: "../assets";
+
+$SF-Regular: "SFProDisplay-Regular";
+
+@font-face {
+  font-family: $SF-Regular;
+  src: url("#{$font-path}/#{$SF-Regular}.ttf") format("opentype");
+}
+
+.default-font {
+  font-family: $SF-Regular;
+  color: $text;
+}

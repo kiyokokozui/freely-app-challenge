@@ -1,6 +1,7 @@
-export const Colors = {
+export const colors = {
   SCREEN_BACKGROUND: "#ECF0F4",
   TEXT: "#000000",
   TRIP_CARD_BACKGROUND: "#FFFFFF",
   TRIP_CARD_BACKGROUND_HIGHLIGHTED: "#C6FBF8",
+  LOADER: "#003366",
 };
