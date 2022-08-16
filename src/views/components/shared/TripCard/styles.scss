@@ -1,0 +1,41 @@
+@import "../../../../styles/colors";
+
+.trip-card {
+  &__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 16px;
+    background-color: $tripCardBackground;
+    padding: 0 16px;
+
+    &:hover {
+      background-color: lightyellow;
+    }
+    &:active {
+      background-color: $yellow;
+    }
+  }
+
+  &__date {
+    display: flex;
+    flex-direction: row;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  &__status {
+    border-radius: 8px;
+    padding: 12px;
+    border: 1px solid black;
+
+    &--text {
+      margin-block-start: 0px;
+      margin-block-end: 0px;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+    }
+  }
+}

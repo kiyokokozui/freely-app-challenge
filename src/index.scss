@@ -1,0 +1,10 @@
+@import "../src/styles/typography";
+@import "../src/styles/colors";
+
+h1 h2 h3 h4 h5 button p {
+  @extend .default-font;
+}
+
+.container {
+  background-color: $screenBackground;
+}

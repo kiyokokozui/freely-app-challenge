@@ -1,0 +1,46 @@
+.trip-details {
+  display: flex;
+
+  &__container {
+    flex-direction: column;
+    flex: 0.7;
+  }
+
+  &__back-button {
+    all: unset;
+    padding: 16px;
+  }
+
+  &__content {
+    border: 1px solid black;
+    margin: 16px;
+    padding: 16px;
+
+    &--header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-left: 16px;
+      margin-right: 16px;
+      margin-bottom: 8px;
+
+      &-date {
+        justify-content: center;
+      }
+    }
+
+    &--destinations {
+      padding: 0 32px;
+      margin-bottom: 8px;
+    }
+  }
+}
+
+.destination-card {
+  border: 1px solid black;
+
+  &__text {
+    margin-left: 24px;
+  }
+}

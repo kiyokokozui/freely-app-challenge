@@ -1,0 +1,31 @@
+.input-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+
+  input {
+    border: none;
+    background-color: transparent;
+    height: fit-content;
+    flex: 1;
+    height: auto;
+    &:focus {
+      outline: none;
+    }
+    padding: 16px;
+  }
+
+  &__input-container {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 8px;
+    flex: 1;
+
+    &__add-button {
+      all: unset;
+      margin-right: 8px;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.trip {
+  display: flex;
+  flex: 1;
+
+  &__card {
+    flex: 0.7;
+
+    &__container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      background-color: transparent;
+    }
+
+    &--child {
+      margin-bottom: 8px;
+      margin-top: 8px;
+      border: none;
+    }
+  }
+}

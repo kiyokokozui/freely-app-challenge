@@ -1,0 +1,26 @@
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.3;
+  height: 100vh;
+  border-right: 1px solid black;
+
+  &__button {
+    background-color: white;
+    padding: 64px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid black;
+    &:hover {
+      background-color: lightgray;
+    }
+    &:active {
+      background-color: gray;
+    }
+
+    &--selected {
+      background-color: lightgoldenrodyellow;
+    }
+  }
+}
